@@ -1,0 +1,115 @@
+ Ringkasan Materi Git dan GitHub
+
+ Daftar Isi
+
+1. [Version Control](#version-control)
+2. [Git](#git)
+3. [Instalasi dan Konfigurasi Git](#instalasi-dan-konfigurasi-git)
+4. [Repository](#repository)
+5. [Status File](#status-file)
+6. [Staging Area](#staging-area)
+7. [Commit](#commit)
+8. [Membatalkan Perubahan](#membatalkan-perubahan)
+9. [Remote Repository](#remote-repository)
+10. [GitHub](#github)
+11. [Markdown](#markdown)
+
+---
+
+ Version Control
+
+Version control adalah praktik untuk melacak dan mengelola perubahan pada file dari waktu ke waktu.
+
+Version control berguna untuk:
+
+- Melihat riwayat perubahan.
+- Mengetahui siapa yang mengubah file.
+- Mengetahui kapan perubahan dilakukan.
+- Mengetahui alasan suatu perubahan.
+- Mengembalikan proyek ke versi sebelumnya.
+- Membantu kolaborasi dalam sebuah proyek.
+
+ Version Control System
+
+Version Control System atau VCS adalah alat yang digunakan untuk mengelola perubahan file.
+
+Terdapat tiga jenis VCS:
+
+1. VCS lokal.
+2. VCS terpusat atau client-server.
+3. VCS terdistribusi atau peer-to-peer.
+
+ VCS Lokal
+
+Pada VCS lokal, database versi disimpan di komputer pengguna sendiri.
+
+Contoh:
+
+- RCS.
+
+Kekurangan VCS lokal:
+
+- Sulit digunakan untuk berkolaborasi dengan orang lain.
+- Riwayat perubahan hanya tersedia di komputer tersebut.
+
+ VCS Terpusat
+
+Pada VCS terpusat, terdapat satu server utama yang menyimpan database versi.
+
+Contoh:
+
+- CVS.
+- Subversion.
+
+Kekurangan VCS terpusat:
+
+- Jika server rusak, proyek dapat terganggu.
+- Kontributor harus selalu terhubung ke server.
+- Jika server kehilangan data, seluruh proyek dapat terkena dampaknya.
+
+ VCS Terdistribusi
+
+Pada VCS terdistribusi, setiap komputer memiliki salinan lengkap repository beserta riwayat perubahannya.
+
+Contoh:
+
+- Git.
+- Mercurial.
+
+Keuntungan VCS terdistribusi:
+
+- Dapat bekerja tanpa selalu terhubung ke server.
+- Setiap komputer memiliki salinan riwayat proyek.
+- Repository dapat dipulihkan dari salinan lain jika terjadi kerusakan.
+
+---
+
+ Git
+
+Git adalah Version Control System terdistribusi yang gratis dan open source.
+
+Git digunakan untuk:
+
+1. Melacak riwayat perubahan.
+2. Mengembalikan proyek ke versi sebelumnya.
+3. Melakukan kolaborasi.
+4. Membuat branch.
+5. Menggabungkan perubahan antar-branch.
+6. Menyimpan proyek secara lokal.
+7. Menghubungkan repository lokal dengan layanan seperti GitHub.
+
+---
+
+ Instalasi dan Konfigurasi Git
+
+Setelah menginstal Git, beberapa konfigurasi yang sebaiknya dilakukan adalah:
+
+- Nama pengguna.
+- Email pengguna.
+- Nama branch default.
+- Editor teks default.
+
+ Mengatur nama pengguna
+
+
+git config --global user.name "Nama Saya"
